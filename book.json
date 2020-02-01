@@ -1,0 +1,50 @@
+{
+  "styles": {
+    "website": "styles/website.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css",
+    "epub": "styles/epub.css"
+  },
+  "plugins": [
+    "emphasize",
+    "-highlight",
+    "toggle-chapters",
+    "sitemap-general",
+    "rss",
+    "donate",
+    "copy-code-button",
+    "tbfed-pagefooter"
+  ],
+  "pluginsConfig": {
+    "tbfed-pagefooter": {
+      "copyright": "international-manual",
+      "modify_label": "该标准修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "donate": {
+      "wechat": "/images/wechat.jpeg",
+      "alipay": "/images/alipay.jpeg",
+      "title": "觉得不错点个赞",
+      "button": "点赞"
+    },
+    "disqus": {
+      "shortName": "coding"
+    },
+    "rss": {
+      "title": "国际化最佳实践",
+      "description": "国际化最佳实践主要借鉴滴滴国际化的相关实战经验，抽象一套可复制的企业级出海解决方案！",
+      "author": "",
+      "feed_url": "https://cuihuan.net/rss",
+      "site_url": "https://cuihuan.net/rss",
+      "managingEditor": "grubbych@126.com",
+      "webMaster": "grubbych@126.com",
+      "categories": [
+        "cuihuan"
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "http://cuihuan.net"
+    }
+  }
+}
